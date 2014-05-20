@@ -1,0 +1,26 @@
+html, body, ul, li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+div {
+  width:  250px;
+  height: 250px;
+  background: white;
+  border: 2px solid black;
+  float: left;
+  font-size: 225px;
+  text-align: center;
+}
+
+/*enclosing div container?*/
+div#container {
+  width: 770px;
+  border: white;
+/*how to float in the middle of page?*/
+}
+
+div.red {
+  background: red;
+}
